@@ -10,6 +10,8 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/customStyle.css">
@@ -21,7 +23,20 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <section class="container-fluid">
+        	<form>
+			  <div class="form-group">
+			    <label for="exampleInputEmail1">Nombre</label>
+			    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Escribe tu nombre">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputPassword1">Clave</label>
+			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="escribe tu clave">
+			  </div>
+			  <button type="button" class="btn btn-success">Iniciar turno</button>
+			</form>
+        </section>
+
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
